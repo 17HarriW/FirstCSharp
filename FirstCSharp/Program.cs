@@ -20,6 +20,9 @@ namespace FirstCSharp
                 // Prints each number pizza with pass number + 1
                 Console.WriteLine("Eat pizza number " + (i+1));    
             }
+            for(int minutes = 10; minutes >=0; minutes--) {
+                Console.WriteLine(minutes + " minutes left");
+            }
 
             Console.ReadLine();
         }
